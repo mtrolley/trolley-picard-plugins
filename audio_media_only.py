@@ -10,8 +10,8 @@ from picard.metadata import register_album_metadata_processor
 import re
 
 
-video_mediums = [ u"DVD-Video", u"Blu-ray", u"HD-DVD", u"Blu-ray", u"Videotape",
-                  u"VHS", u"Betamax", u"VCD", u"CDV", u"SVCD", u"LaserDisc" ]
+video_mediums = [ u"DVD-Video", u"Blu-ray", u"HD-DVD", u"Videotape", u"VHS",
+                  u"Betamax", u"VCD", u"CDV", u"SVCD", u"LaserDisc" ]
 
 
 def count_release_mediums(tagger, metadata, release):
