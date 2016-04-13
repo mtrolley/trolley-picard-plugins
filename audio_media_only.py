@@ -4,7 +4,7 @@ PLUGIN_DESCRIPTION = u'''Separates the count of audio mediums and video mediums
 for a release. With this plugin you can use %_totalaudiomediums% and/or
 %_totalvideomediums% instead of %totaldiscs% in your file name formatting.'''
 PLUGIN_VERSION = "0.1"
-PLUGIN_API_VERSIONS = ["1.0"]
+PLUGIN_API_VERSIONS = ["1.0.0"]
 
 from picard.metadata import register_album_metadata_processor
 import re
